@@ -17,7 +17,7 @@ export default function Card(props) {
         </div>
         <h1 className="place">{props.item.title}</h1>
         <h4>
-          {props.startDate} - {props.item.endDate}
+          {props.item.startDate} - {props.item.endDate}
         </h4>
         <p className="text">{props.item.description}</p>
       </div>
